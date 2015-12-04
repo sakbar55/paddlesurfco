@@ -136,3 +136,37 @@ blockquote {
 #sidebar p {
   color: #929daf;
 }
+
+.footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer h1 {
+  font-size: 4em;
+  color: #083451;
+  padding: 30px;
+}
+
+.footer p {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  bottom: 10px;
+}
+
+.footer_r {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #083451;
+  color: #fff;
+}
+
+.footer_img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
