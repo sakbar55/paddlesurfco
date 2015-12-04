@@ -16,3 +16,14 @@ div {
   padding: 5px;
   height: 520px;
 }
+
+.largelogo{
+  position: relative;
+  margin-top: 0;
+  color: #083451;
+}
+
+.logobrand h4 {
+  color: #083451;
+  vertical-align: middle;
+}
