@@ -8,6 +8,13 @@ div {
   display: block;
 }
 
+
+p {
+  font-weight: lighter;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+}
+
 .largeheader {
   background-image: url('../images/header.jpg');
   background-size: cover;
@@ -17,7 +24,7 @@ div {
   height: 520px;
 }
 
-.largelogo{
+.largelogo {
   position: relative;
   margin-top: 0;
   color: #083451;
@@ -26,4 +33,106 @@ div {
 .logobrand h4 {
   color: #083451;
   vertical-align: middle;
+}
+
+.top_nav {
+  position: relative;
+  margin-top: 3px;
+}
+
+.top_nav a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #083451;
+  vertical-align: bottom;
+}
+
+.top_nav a:link, a:visited {
+  text-decoration: none;
+  color: #083451;
+  font-weight: lighter;
+}
+
+.top_nav a:hover {
+  text-decoration: none;
+  color: #131313;
+  font-weight: bold;
+}
+
+.top_nav a:active {
+  text-decoration: none;
+  color: #c7c7c7;
+}
+
+.top_nav img {
+  vertical-align: text-top;
+}
+
+.search {
+  vertical-align: text-top;
+}
+
+.heading {
+  color: #fff;
+  margin-top: 110px;
+  height: 100%;
+  font-stretch: extra-expanded;
+}
+
+.heading h1 {
+  font-size: 7em;
+  color: #fff;
+  font-stretch: extra-expanded;
+}
+
+.heading h5 {
+  color: #083451;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+#text {
+  position: relative;
+  width: 660px;
+}
+
+#text h1 {
+  font-size: 5em;
+}
+
+#text a {
+  color: #2085d7;
+}
+
+#text a:hover {
+  text-decoration: none;
+  background-color: green;
+}
+
+blockquote {
+  color: #106DB3;
+  font-size: 30px;
+}
+
+#sidebar {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+}
+
+#sidebar h2 {
+  color: #106DB3;
+  font-size: 24px;
+}
+
+#sidebar a {
+  color: #2085d7;
+}
+
+#sidebar a:hover {
+  text-decoration: none;
+}
+
+#sidebar p {
+  color: #929daf;
 }
